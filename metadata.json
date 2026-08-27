@@ -1,0 +1,6 @@
+{
+  "name": "The Constituents Men of Legal Honor",
+  "description": "Advocacy, legal education, and certified peer support platform for self-represented (pro-se) litigants, featuring integrated Substack blog connectivity and secure case intake.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

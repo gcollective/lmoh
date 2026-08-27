@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif-legal: 'Cinzel', serif;
+    --font-serif-italic: 'Playfair Display', Georgia, serif;
+    --font-sans-legal: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono-legal: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans-legal);
+    background-color: #020617;
+    color: #f1f5f9;
+  }
+
+  h1, h2, h3, .font-serif-legal {
+    font-family: var(--font-serif-legal);
+  }
+}
+
+.font-serif-legal {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-serif-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans-legal {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-mono-legal {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Bold Typography Outline Stroke Accents */
+.text-stroke-amber {
+  -webkit-text-stroke: 1.5px #f59e0b;
+}
+
+.text-stroke-amber-thick {
+  -webkit-text-stroke: 2px #f59e0b;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 1.5px #ffffff;
+}
+
+/* Tracking utility for bold micro headers */
+.tracking-ultra-wide {
+  letter-spacing: 0.4em;
+}
+
+.tracking-wide-heading {
+  letter-spacing: 0.25em;
+}
+
+/* Custom Gold Glow and Subtle Gradient Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fef08a 0%, #eab308 50%, #ca8a04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(234, 179, 8, 0.15);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}

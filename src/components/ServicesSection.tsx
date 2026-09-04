@@ -8,7 +8,7 @@ interface ServicesSectionProps {
   onSelectServiceForIntake: (serviceCategory: string) => void;
 }
 
-export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServiceForIntake }: ServicesSectionProps) => {
+export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServiceForIntake }) => {
   const [selectedService, setSelectedService] = useState<ServiceDetail | null>(null);
 
   const getServiceIcon = (iconName: string) => {

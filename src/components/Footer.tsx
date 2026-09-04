@@ -61,10 +61,13 @@ export const Footer: React.FC<FooterProps> = ({
                 <a href="#hero" className="hover:text-amber-400 transition">Home</a>
               </li>
               <li>
-                <a href="#mission" className="hover:text-amber-400 transition">Our Mission & 3 Pillars</a>
+                <a href="#about" className="hover:text-amber-400 transition">About Us &amp; Founder Bio</a>
               </li>
               <li>
-                <a href="#services" className="hover:text-amber-400 transition">Services & Legal Areas</a>
+                <a href="#mission" className="hover:text-amber-400 transition">Our Mission &amp; 3 Pillars</a>
+              </li>
+              <li>
+                <a href="#services" className="hover:text-amber-400 transition">Services &amp; Legal Areas</a>
               </li>
               <li>
                 <a href="#intake" className="hover:text-amber-400 transition">Case Intake Form</a>

@@ -61,13 +61,28 @@ export const Navbar: React.FC<NavbarProps> = ({
           </a>
 
           {/* Desktop Navigation */}
-          <nav id="desktop-nav" className="hidden lg:flex items-center space-x-7 text-[11px] uppercase tracking-widest font-bold">
+          <nav id="desktop-nav" className="hidden lg:flex items-center space-x-5 xl:space-x-6 text-[11px] uppercase tracking-widest font-bold">
+            <a
+              href="#hero"
+              id="nav-link-home"
+              className="text-slate-400 hover:text-amber-500 transition-colors py-2"
+            >
+              Home
+            </a>
+            <a
+              href="#about"
+              id="nav-link-about"
+              className="text-slate-400 hover:text-amber-500 transition-colors py-2 flex items-center space-x-1"
+            >
+              <span>About Us</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-500/80"></span>
+            </a>
             <a
               href="#mission"
               id="nav-link-mission"
               className="text-slate-400 hover:text-amber-500 transition-colors py-2"
             >
-              Mission
+              Mission &amp; Pillars
             </a>
             <a
               href="#services"
@@ -148,11 +163,18 @@ export const Navbar: React.FC<NavbarProps> = ({
             Home
           </a>
           <a
+            href="#about"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block px-3 py-2 text-sm font-semibold text-slate-300 hover:text-amber-400 uppercase tracking-wider"
+          >
+            About Us
+          </a>
+          <a
             href="#mission"
             onClick={() => setMobileMenuOpen(false)}
             className="block px-3 py-2 text-sm font-semibold text-slate-300 hover:text-amber-400 uppercase tracking-wider"
           >
-            Mission & Pillars
+            Mission &amp; Pillars
           </a>
           <a
             href="#services"

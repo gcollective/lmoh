@@ -1,4 +1,4 @@
-import { FaqItem, MissionPillar, ServiceDetail, SubstackPost } from '../types';
+import { FaqItem, FounderBio, MissionPillar, ServiceDetail, SubstackPost } from '../types';
 
 export const SUBSTACK_URL = "https://menoflegalhonorcharlotte.substack.com";
 
@@ -340,4 +340,143 @@ export const ARCHITECTURE_SPECIFICATION = {
       ]
     }
   ]
+};
+
+export const FOUNDER_BIO_DATA: FounderBio = {
+  name: "N. A-A Abdullah-Malik",
+  titles: [
+    "Legal Literacy Advocate",
+    "Institutional Navigation Educator",
+    "Author of 'Rumble Young Man'",
+    "Entrepreneur",
+    "U.S. Army Veteran",
+    "UNC Chapel Hill Certified Peer Specialist"
+  ],
+  veteranStatus: "United States Army Veteran",
+  bookTitle: "Rumble Young Man",
+  bookDescription: "A compelling memoir exploring personal accountability, incarceration, recovery, resilience, institutional navigation, rebranding, entrepreneurship, and recidivism prevention. The work documents his journey through 39 years in and out of the prison system and his movement toward healing, responsibility, and service, crediting drug-recovery programming through the Mecklenburg County Sheriff’s Office as a critical turning point in his personal transformation.",
+  missionStatement: "Teach people how the system works before the system teaches them through consequences.",
+  fullNarrative: [
+    "N. A-A Abdullah-Malik is a legal literacy advocate, institutional navigation educator, author, entrepreneur, and United States Army Veteran whose work is dedicated to prevention, accountability, reentry, and second chances. He helps people understand the systems that shape their lives—particularly schools, courts, correctional institutions, and other structured environments where a lack of information can lead to serious and lasting consequences.",
+    "Abdullah-Malik’s work is grounded in the belief that many legal problems begin before an arrest, charge, or court appearance. They may begin with an impulsive response, a misunderstanding of policy, a conflict at school, missed paperwork, poor documentation, peer pressure, an emotional reaction, or failure to recognize how a momentary decision may affect one’s record and future opportunities. He teaches young people and adults how to slow down, assess consequences, understand institutional expectations, and make decisions that protect their future.",
+    "As a legal literacy advocate, Abdullah-Malik emphasizes the importance of knowing how to navigate formal systems. His programs address court and procedural awareness, documentation, deadlines, policy compliance, communication, emotional discipline, and responsible engagement with authority. He helps participants understand that legal literacy does not mean pretending to be a lawyer. It means knowing enough to recognize the seriousness of a situation, preserve important information, ask informed questions, follow required procedures, and seek qualified legal counsel when necessary.",
+    "His knowledge of institutional navigation comes from lived experience. Abdullah-Malik has navigated the military, correctional institutions, courts, and administrative systems over several decades. As a pro se litigant, he has pursued legal matters in the United States Supreme Court, nine of the eleven federal circuit courts, and various state courts. These experiences developed his appreciation for the discipline required to work within formal processes, including research, deadlines, filing rules, recordkeeping, and procedural requirements.",
+    "Abdullah-Malik is not an attorney and does not provide legal advice or legal representation. His role is educational and advocacy-based. He translates difficult concepts into practical guidance for people who may feel intimidated, overwhelmed, or unprepared when they encounter legal and institutional systems. His purpose is to make essential knowledge more accessible before someone’s choices, lack of preparation, or misunderstanding of the process produces life-altering consequences.",
+    "He is the author of Rumble Young Man, a memoir that explores accountability, incarceration, recovery, resilience, institutional navigation, rebranding, entrepreneurship, and recidivism prevention. The work documents his journey through 39 years in and out of the prison system and his movement toward healing, responsibility, and service. He credits drug-recovery programming through the Mecklenburg County Sheriff’s Office as a key point in his personal transformation.",
+    "Through Rumble Young Man and his public work, Abdullah-Malik does not romanticize incarceration, addiction, violence, or legal-system involvement. He presents the truth about the cost of bad decisions, lost time, broken relationships, and missed opportunities. At the same time, he offers a message of hope: past mistakes do not have to become permanent identity. Accountability, recovery, education, discipline, and service can create a path forward.",
+    "Abdullah-Malik’s prevention framework includes early system-contact prevention, the Yale Moment Framework, navigating systems with discipline, and identity, resilience, and self-reflection. His programs are designed to help participants recognize escalation points, manage pressure, understand consequences, preserve future opportunities, and develop the emotional control necessary to make sound decisions in high-stakes moments.",
+    "He is available for youth prevention programs, legal-literacy workshops, reentry and recidivism-prevention programs, school assemblies, parent and coach workshops, community forums, faith-based programs, criminal-justice-reform conversations, keynote presentations, and consulting engagements with schools, nonprofits, youth organizations, and community groups.",
+    "N. A-A Abdullah-Malik is driven by a simple purpose: teach people how the system works before the system teaches them through consequences. His work helps individuals understand the relationship between decisions, institutions, accountability, and opportunity—so they can protect their freedom, preserve their potential, and build a more responsible future."
+  ],
+  preventionFramework: [
+    {
+      title: "Early System-Contact Prevention",
+      tagline: "Intervening before consequences become permanent.",
+      description: "Recognizing that legal and institutional troubles almost always start prior to formal booking or charges—stemming from impulsive responses, policy misunderstandings, school conflicts, missed deadlines, poor recordkeeping, or emotional escalation.",
+      keyPoints: [
+        "Identifying early decision inflection points that risk institutional involvement",
+        "Understanding school codes, employment policies, and municipal regulations",
+        "Emotional de-escalation and situational awareness during high-pressure disputes"
+      ],
+      icon: "ShieldAlert"
+    },
+    {
+      title: "The Yale Moment Framework",
+      tagline: "The cognitive pause in high-stakes moments.",
+      description: "Teaching youth and adults how to slow down under acute pressure, assess immediate and downstream legal ramifications, manage peer dynamics, and exercise decisive self-control when a single decision can jeopardize lifetime opportunities.",
+      keyPoints: [
+        "Recognizing high-stakes escalation points before action is taken",
+        "Managing acute peer pressure, emotional triggers, and fight-or-flight impulses",
+        "Protecting future academic, vocational, and personal freedom"
+      ],
+      icon: "BrainCircuit"
+    },
+    {
+      title: "Navigating Systems with Discipline",
+      tagline: "Mastering formal expectations and procedural mechanics.",
+      description: "Demystifying courts, administrative bodies, and institutional hierarchies. Emphasizing that legal literacy is not about playing lawyer, but knowing how to document facts, meet deadlines, ask informed questions, and engage authority responsibly.",
+      keyPoints: [
+        "Procedural and timeline awareness in formal administrative & court settings",
+        "Meticulous recordkeeping, paperwork preservation, and written communication",
+        "Knowing how and when to seek qualified, licensed legal counsel"
+      ],
+      icon: "Scale"
+    },
+    {
+      title: "Identity, Resilience & Self-Reflection",
+      tagline: "Past mistakes do not equal permanent identity.",
+      description: "Rooted in authentic transformation and 39 years of navigating carceral realities. Rejecting the romanticization of incarceration or street culture, while proving that accountability, recovery, education, and service build an honorable path forward.",
+      keyPoints: [
+        "Uncompromising accountability and honest reconciliation with the past",
+        "Recovery, resilience, and personal rebranding through discipline and entrepreneurship",
+        "Channeling hard-won lived wisdom into community mentorship and youth protection"
+      ],
+      icon: "HeartHandshake"
+    }
+  ],
+  institutionalExperience: [
+    {
+      level: "United States Supreme Court (SCOTUS)",
+      summary: "Pursued pro se constitutional filings, petitions for certiorari, and procedural briefs before the nation's highest court.",
+      badge: "High Court Filings"
+    },
+    {
+      level: "9 of 11 U.S. Federal Circuit Courts",
+      summary: "Direct pro se appellate litigation across 9 distinct Federal Circuit Courts of Appeals, developing deep expertise in federal rules and evidentiary records.",
+      badge: "Federal Circuits"
+    },
+    {
+      level: "State Courts & Administrative Systems",
+      summary: "Extensive multi-decade experience in trial and post-conviction state courts, administrative agencies, and correctional governance.",
+      badge: "State & Admin"
+    },
+    {
+      level: "U.S. Armed Forces",
+      summary: "United States Army Veteran, bringing military discipline, structured protocol, and chain-of-command awareness to community education.",
+      badge: "Army Veteran"
+    }
+  ],
+  speakingOfferings: [
+    {
+      title: "Youth Prevention & School Assemblies",
+      audience: "Middle & High Schools, Youth Sports, JROTC",
+      description: "Engaging, high-impact sessions teaching young people how to navigate authority, avoid institutional traps, and apply the Yale Moment Framework.",
+      icon: "GraduationCap"
+    },
+    {
+      title: "Legal Literacy & Institutional Navigation Workshops",
+      audience: "Pro-Se Litigants, Parents, Coaches, Community Centers",
+      description: "Practical training on court awareness, documentation, deadline tracking, and effectively communicating with formal systems.",
+      icon: "BookOpen"
+    },
+    {
+      title: "Reentry & Recidivism-Prevention Programs",
+      audience: "Correctional Facilities, Halfway Houses, Reentry Coalitions",
+      description: "Actionable blueprints for personal transformation, accountability, overcoming systemic barriers, and sustainable re-identification.",
+      icon: "RefreshCw"
+    },
+    {
+      title: "Faith-Based Programs & Community Forums",
+      audience: "Churches, Civic Organizations, Neighborhood Associations",
+      description: "Inspiring dialogues on second chances, trauma recovery, brotherhood, and collective community safety through legal literacy.",
+      icon: "Users"
+    },
+    {
+      title: "Keynote Presentations & Policy Reform Panels",
+      audience: "Conferences, Law Schools, Criminal Justice Reform Symposia",
+      description: "Authentic, data-grounded insights from 39 years of system navigation to illuminate policy reform, peer support, and education.",
+      icon: "Mic"
+    },
+    {
+      title: "Consulting Engagements",
+      audience: "Nonprofits, Educational Districts, Youth Organizations",
+      description: "Custom curriculum design and organizational advisory on building effective prevention, mentorship, and literacy initiatives.",
+      icon: "Building"
+    }
+  ],
+  bookLinks: {
+    bookUrl: "https://tinyurl.com/rumblebook",
+    spotifyUrl: "https://tinyurl.com/rumblebookonspotify"
+  },
+  disclaimer: "Disclaimer: N. A-A Abdullah-Malik is not an attorney and does not provide legal advice, legal representation, or case-specific legal services. His work is limited to education, advocacy, speaking, and institutional-literacy training."
 };

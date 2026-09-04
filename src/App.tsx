@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+import { AboutSection } from './components/AboutSection';
 import { MissionSection } from './components/MissionSection';
 import { ServicesSection } from './components/ServicesSection';
 import { SubstackFeedSection } from './components/SubstackFeedSection';
@@ -29,30 +30,36 @@ export default function App() {
 
       {/* Main Content Sections */}
       <main className="flex-grow">
-        {/* 1. Dignified Hero Header */}
+        {/* 1. Dignified Hero Header (Home) */}
         <Hero
           onOpenArchitecture={() => setIsArchitectureOpen(true)}
           onOpenDisclaimerModal={() => setIsDisclaimerOpen(true)}
         />
 
-        {/* 2. Mission Statement & Three Pillars */}
+        {/* 2. About Us & Founder Bio (N. A-A Abdullah-Malik) */}
+        <AboutSection
+          onOpenDisclaimerModal={() => setIsDisclaimerOpen(true)}
+          onSelectServiceForIntake={handleSelectServiceForIntake}
+        />
+
+        {/* 3. Mission Statement & Three Pillars */}
         <MissionSection />
 
-        {/* 3. Professional Services & Legal Expertise */}
+        {/* 4. Professional Services & Legal Expertise */}
         <ServicesSection
           onSelectServiceForIntake={handleSelectServiceForIntake}
         />
 
-        {/* 4. Substack Blog Integration & Live Feed */}
+        {/* 5. Substack Blog Integration & Live Feed */}
         <SubstackFeedSection />
 
-        {/* 5. Preliminary Case Review & Intake Form */}
+        {/* 6. Preliminary Case Review & Intake Form */}
         <IntakeForm
           initialServiceId={selectedServiceForIntake}
           onOpenDisclaimerModal={() => setIsDisclaimerOpen(true)}
         />
 
-        {/* 6. Frequently Asked Questions */}
+        {/* 7. Frequently Asked Questions */}
         <FaqSection />
       </main>
 

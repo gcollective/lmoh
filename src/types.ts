@@ -90,3 +90,36 @@ export interface MissionPillar {
   highlights: string[];
   icon: string;
 }
+
+export interface FounderBio {
+  name: string;
+  titles: string[];
+  veteranStatus: string;
+  bookTitle: string;
+  bookDescription: string;
+  missionStatement: string;
+  fullNarrative: string[];
+  preventionFramework: {
+    title: string;
+    tagline: string;
+    description: string;
+    keyPoints: string[];
+    icon: string;
+  }[];
+  institutionalExperience: {
+    level: string;
+    summary: string;
+    badge: string;
+  }[];
+  speakingOfferings: {
+    title: string;
+    audience: string;
+    description: string;
+    icon: string;
+  }[];
+  bookLinks: {
+    bookUrl: string;
+    spotifyUrl: string;
+  };
+  disclaimer: string;
+}
